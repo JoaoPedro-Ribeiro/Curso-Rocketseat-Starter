@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Desafio 5</title>
+    </head>
+    <body>
+        <script>
+            function text(users){
+                for(var text of users){
+                    console.log('O ' + text.name + ' possui as habilidades: ' + text.hability.join(', '));
+                }
+            }
+            var users = [
+            {
+            name: "Diego",
+            hability: ["Javascript", "ReactJS", "Redux"]
+            },
+            {
+            name: "Gabriel",
+            hability: ["VueJS", "Ruby on Rails", "Elixir"]
+            }
+            ];
+
+            text(users);
+
+        </script>
+    </body>
+</html>
